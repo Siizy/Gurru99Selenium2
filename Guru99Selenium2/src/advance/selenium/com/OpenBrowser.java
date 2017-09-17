@@ -1,6 +1,9 @@
 package advance.selenium.com;
 
 
+import java.util.concurrent.TimeUnit;
+
+import org.junit.rules.Timeout;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -43,7 +46,7 @@ public class OpenBrowser {
 	
 	public void Add_Wait(int timeToWaitInSeconds){
 		
-		
+		driver.manage().timeouts().implicitlyWait(timeToWaitInSeconds, TimeUnit.SECONDS);
 	}
 
 }
