@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6373" started-at="2017-07-05T07:13:44Z" finished-at="2017-07-05T07:13:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6373" started-at="2017-07-05T07:13:44Z" finished-at="2017-07-05T07:13:51Z">
+      <class name="com.unicorn.UnicornExecute">
+        <test-method status="PASS" signature="launch_browser()[pri:0, instance:com.unicorn.UnicornExecute@7dc7cbad]" name="launch_browser" duration-ms="6364" started-at="2017-07-05T12:43:44Z" finished-at="2017-07-05T12:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+      </class> <!-- com.unicorn.UnicornExecute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
