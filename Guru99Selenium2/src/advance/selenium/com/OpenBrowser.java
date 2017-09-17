@@ -47,6 +47,7 @@ public class OpenBrowser {
 	public void Add_Wait(int timeToWaitInSeconds){
 		System.out.println("Adding a wait of :"+ timeToWaitInSeconds +"for each webelement before it throws error");
 		driver.manage().timeouts().implicitlyWait(timeToWaitInSeconds, TimeUnit.SECONDS);
+		System.out.println("wait is added");
 	}
 
 }
